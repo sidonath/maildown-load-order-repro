@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/sidonath/maildown.git
+  revision: 7913f15a0594c12e45e52298496606858b866dc2
+  branch: wait-for-action-mailer-load
+  specs:
+    maildown (3.2.0)
+      actionmailer (>= 4.0.0)
+      kramdown-parser-gfm
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -94,9 +103,6 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
-    maildown (3.2.0)
-      actionmailer (>= 4.0.0)
-      kramdown-parser-gfm
     marcel (0.3.3)
       mimemagic (~> 0.3.2)
     method_source (1.0.0)
@@ -217,7 +223,7 @@ DEPENDENCIES
   capybara (>= 3.26)
   jbuilder (~> 2.7)
   listen (~> 3.3)
-  maildown
+  maildown!
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.0.0)
